@@ -1,10 +1,11 @@
 {
+  "type": "module",
   "name": "torrent-streaming-api",
   "version": "1.0.0",
   "description": "Torrent streaming API with WebTorrent",
-  "main": "complete-server-fix.js",
+  "main": "complete-server-fix.mjs",
   "scripts": {
-    "start": "node complete-server-fix.js",
+    "start": "node complete-server-fix.mjs",
     "start:service": "bash start-server.sh"
   },
   "dependencies": {
